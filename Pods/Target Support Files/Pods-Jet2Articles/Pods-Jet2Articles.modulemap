@@ -1,0 +1,6 @@
+framework module Pods_Jet2Articles {
+  umbrella header "Pods-Jet2Articles-umbrella.h"
+
+  export *
+  module * { export * }
+}

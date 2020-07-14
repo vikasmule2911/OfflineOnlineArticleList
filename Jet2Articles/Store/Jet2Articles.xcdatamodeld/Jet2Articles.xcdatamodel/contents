@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ArticleMedia" representedClassName=".ArticleMedia" syncable="YES">
+        <attribute name="articleId" optional="YES" attributeType="String"/>
+        <attribute name="blogId" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Articles" representedClassName=".Articles" syncable="YES">
+        <attribute name="comments" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="likes" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ArticleUser" representedClassName="ArticleUser" syncable="YES">
+        <attribute name="about" optional="YES" attributeType="String"/>
+        <attribute name="articleId" optional="YES" attributeType="String"/>
+        <attribute name="avatar" optional="YES" attributeType="String"/>
+        <attribute name="blogId" optional="YES" attributeType="String"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="designation" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Articles" positionX="-54" positionY="-9" width="128" height="118"/>
+        <element name="ArticleMedia" positionX="-18" positionY="27" width="128" height="148"/>
+        <element name="ArticleUser" positionX="-36" positionY="9" width="128" height="193"/>
+    </elements>
+</model>
